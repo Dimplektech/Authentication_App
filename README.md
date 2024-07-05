@@ -1,5 +1,4 @@
-# Authentication_App
-Simple Django application for user authentication.
+
 # Django Authentication App
 
 This is a simple Django application for user authentication, including registration, login, logout, and protected views. 
@@ -40,14 +39,15 @@ This is a simple Django application for user authentication, including registrat
 
 1. **Clone the repository**
     ```sh
-    git clone https://github.com/yourusername/django-auth-app.git
-    cd django-auth-app
+    git clone https://github.com/Dimplektech/Authentication_App.git
+
+    cd auth_project_folder
     ```
 
 2. **Create and activate a virtual environment**
     ```sh
-    python -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+    python -m venv auth_venv
+    source auth_venv/bin/activate  # On Windows use `auth_venv\Scripts\activate`
     ```
 
 3. **Install dependencies**
@@ -104,6 +104,5 @@ This project uses Django's built-in `User` model for authentication. The `User` 
 - Django
 - Python 3.x
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## Contact
+- Dimpal Kaware (https://github.com/Dimplektech)
